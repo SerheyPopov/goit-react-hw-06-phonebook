@@ -7,7 +7,6 @@ export const Filter = () => {
   const dispatch = useDispatch();
 
   const handlChange = evt => {
-    console.log(evt.target.value);
     dispatch(filterContact(evt.target.value));
   };
   
